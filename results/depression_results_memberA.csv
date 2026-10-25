@@ -1,0 +1,11 @@
+feature_set,model,cv5_auc_mean(train),cv5_auc_sd,train_auc,train_balanced_acc,test_accuracy,test_precision,test_recall,test_f1,test_balanced_accuracy,test_auc,auc_gap_train_minus_test,best_params
+F1 phone & background,Baseline (most common),0.5,0.0,0.5,0.5,0.82,0.0,0.0,0.0,0.5,0.5,0.0,{}
+F1 phone & background,Logistic regression,0.608,0.045,0.713,0.633,0.635,0.253,0.523,0.341,0.591,0.619,0.095,"{""m__C"": 0.3}"
+F1 phone & background,Decision tree,0.586,0.03,0.691,0.65,0.525,0.223,0.659,0.333,0.577,0.559,0.132,"{""m__max_depth"": 3, ""m__min_samples_leaf"": 20}"
+F1 phone & background,Random forest,0.632,0.051,0.931,0.852,0.75,0.302,0.295,0.299,0.573,0.651,0.281,"{""m__max_depth"": null, ""m__min_samples_leaf"": 10}"
+F1 phone & background,Gradient boosting,0.658,0.034,0.821,0.706,0.783,0.364,0.273,0.312,0.584,0.688,0.132,"{""m__learning_rate"": 0.03, ""m__max_depth"": 3, ""m__n_estimators"": 50}"
+F2 + dependence questions,Baseline (most common),0.5,0.0,0.5,0.5,0.82,0.0,0.0,0.0,0.5,0.5,0.0,{}
+F2 + dependence questions,Logistic regression,0.594,0.022,0.739,0.683,0.648,0.244,0.455,0.317,0.572,0.608,0.131,"{""m__C"": 0.1}"
+F2 + dependence questions,Decision tree,0.604,0.038,0.732,0.675,0.574,0.206,0.477,0.288,0.536,0.514,0.218,"{""m__max_depth"": 4, ""m__min_samples_leaf"": 20}"
+F2 + dependence questions,Random forest,0.642,0.029,1.0,0.988,0.811,0.25,0.023,0.042,0.504,0.654,0.346,"{""m__max_depth"": null, ""m__min_samples_leaf"": 5}"
+F2 + dependence questions,Gradient boosting,0.645,0.022,0.953,0.853,0.758,0.273,0.205,0.234,0.542,0.61,0.343,"{""m__learning_rate"": 0.03, ""m__max_depth"": 3, ""m__n_estimators"": 150}"

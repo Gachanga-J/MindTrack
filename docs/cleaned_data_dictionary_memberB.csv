@@ -1,0 +1,54 @@
+file,column,type,use_in_depression_model,use_in_dependence_model,note
+both,code,student id (join key),No,No,merge key; never a model input
+dependence_clean.csv,tmd_q1,ordered 0-4,Yes (feature set F2 only),NO - target source,I’ve been called out or warned about my heavy cell phone use
+dependence_clean.csv,tmd_q2,ordered 0-4,Yes (feature set F2 only),NO - target source,"I’ve set a spending limit on my cell phone, but I always run out of credit before the end of the month"
+dependence_clean.csv,tmd_q3,ordered 0-4,Yes (feature set F2 only),NO - target source,I’ve argued with my parents or relatives about the cost of my cell phone
+dependence_clean.csv,tmd_q4,ordered 0-4,Yes (feature set F2 only),NO - target source,"I spend more time than I’d like talking on the phone, sending text messages, using WhatsApp, or chatting"
+dependence_clean.csv,tmd_q5,ordered 0-4,Yes (feature set F2 only),NO - target source,I’ve sent more than five (5) messages in a day on my cell phone
+dependence_clean.csv,tmd_q6,ordered 0-4,Yes (feature set F2 only),NO - target source,I’ve gone to bed later or slept less because I was using my cell phone
+dependence_clean.csv,tmd_q7,ordered 0-4,Yes (feature set F2 only),NO - target source,"I spend more money on my cell phone (calls, text messages, WhatsApp, chat, etc.) than I had planned"
+dependence_clean.csv,tmd_q8,ordered 0-4,Yes (feature set F2 only),NO - target source,"When I’m bored, I use my cell phone"
+dependence_clean.csv,tmd_q9,ordered 0-4,Yes (feature set F2 only),NO - target source,"I use my cell phone (calls, text messages, WhatsApp, chat, etc.) in situations where it’s inappropriate, such as when I’m eating or talking to people"
+dependence_clean.csv,tmd_q10,ordered 0-4,Yes (feature set F2 only),NO - target source,I’ve been criticized for spending too much money or spending too much time on my cell phone
+dependence_clean.csv,tmd_q11,ordered 0-4,Yes (feature set F2 only),NO - target source,"When I haven’t used my cell phone for a while, I feel the need to call someone, send a text message, use WhatsApp, or chat"
+dependence_clean.csv,tmd_q12,ordered 0-4,Yes (feature set F2 only),NO - target source,"Since I’ve had a cell phone, I’ve been making more calls"
+dependence_clean.csv,tmd_q13,ordered 0-4,Yes (feature set F2 only),NO - target source,"If my cell phone broke and stopped working for a long time, and it took a while to get it fixed, I’d feel really bad"
+dependence_clean.csv,tmd_q14,ordered 0-4,Yes (feature set F2 only),NO - target source,I realize that I find myself needing to use my cell phone more and more.
+dependence_clean.csv,tmd_q15,ordered 0-4,Yes (feature set F2 only),NO - target source,"If I don’t have my cell phone, I feel bad."
+dependence_clean.csv,tmd_q16,ordered 0-4,Yes (feature set F2 only),NO - target source,"When I have my cell phone in my hands, I can’t stop using it."
+dependence_clean.csv,tmd_q17,ordered 0-4,Yes (feature set F2 only),NO - target source,"Ever since I’ve had my cell phone, I’ve been sending more text messages, WhatsApp messages, chats, etc."
+dependence_clean.csv,tmd_q18,ordered 0-4,Yes (feature set F2 only),NO - target source,"As soon as I wake up in the morning, the first thing I do is check to see if anyone has called my cell phone or if I’ve received a text message or a WhatsApp message."
+dependence_clean.csv,tmd_q19,ordered 0-4,Yes (feature set F2 only),NO - target source,I spend more money on my cell phone now than I did when I first bought it.
+dependence_clean.csv,tmd_q20,ordered 0-4,Yes (feature set F2 only),NO - target source,I don’t think I could go a week without my cell phone.
+dependence_clean.csv,tmd_q21,ordered 0-4,Yes (feature set F2 only),NO - target source,"When I feel lonely, I make a test call to someone, or I call them, or I send them a text message or a WhatsApp message."
+dependence_clean.csv,tmd_q22,ordered 0-4,Yes (feature set F2 only),NO - target source,"Right now, I’d grab my cell phone and send a message, make a call, or use WhatsApp."
+dependence_clean.csv,tmd_total,number 0-88,Optional (F2),NO - target source,recomputed from the 22 items (1 supplied total was wrong)
+dependence_clean.csv,tmd_level,category (ordered),No,NO - target source,Absence / Low / Medium / High from the total; for charts and report only
+dependence_clean.csv,dependence_flag,binary 0/1 TARGET,No,TARGET,1 = TMD total >= 39 (medium or high dependence)
+depression_clean.csv,bdi_a,ordered 0-3,NO - target source,Not planned,Beck item A: Sadness
+depression_clean.csv,bdi_b,ordered 0-3,NO - target source,Not planned,Beck item B: Pessimism
+depression_clean.csv,bdi_c,ordered 0-3,NO - target source,Not planned,Beck item C: Past Failure
+depression_clean.csv,bdi_d,ordered 0-3,NO - target source,Not planned,Beck item D: Loss of Pleasure
+depression_clean.csv,bdi_e,ordered 0-3,NO - target source,Not planned,Beck item E: Guilty Feelings
+depression_clean.csv,bdi_f,ordered 0-3,NO - target source,Not planned,Beck item F: Punishment Feelings
+depression_clean.csv,bdi_g,ordered 0-3,NO - target source,Not planned,Beck item G: Self-Dislike
+depression_clean.csv,bdi_h,ordered 0-3,NO - target source,Not planned,Beck item H: Self-Criticalness
+depression_clean.csv,bdi_i,ordered 0-3,NO - target source,Not planned,"Beck item I: Suicidal Ideation (suicidal ideation; sensitive, aggregate results only)"
+depression_clean.csv,bdi_j,ordered 0-3,NO - target source,Not planned,Beck item J: Crying
+depression_clean.csv,bdi_k,ordered 0-3,NO - target source,Not planned,Beck item K: Irritability
+depression_clean.csv,bdi_l,ordered 0-3,NO - target source,Not planned,Beck item L: Loss of Interest
+depression_clean.csv,bdi_m,ordered 0-3,NO - target source,Not planned,Beck item M: Indecisiveness
+depression_clean.csv,bdi_n,ordered 0-3,NO - target source,Not planned,Beck item N: body-image concern (the dictionary calls it 'Feelings of Worthlessness' but the questionnaire statement is about looking unattractive)
+depression_clean.csv,bdi_o,ordered 0-3,NO - target source,Not planned,Beck item O: Work Difficulty
+depression_clean.csv,bdi_p,ordered 0-3,NO - target source,Not planned,Beck item P: Changes in Sleeping Pattern
+depression_clean.csv,bdi_q,ordered 0-3,NO - target source,Not planned,Beck item Q: Tiredness or Fatigue
+depression_clean.csv,bdi_r,ordered 0-3,NO - target source,Not planned,Beck item R: Changes in Appetite
+depression_clean.csv,bdi_s,ordered 0-3,NO - target source,Not planned,Beck item S: Weight Loss
+depression_clean.csv,bdi_t,ordered 0-3,NO - target source,Not planned,Beck item T: Concerns about health
+depression_clean.csv,bdi_u,ordered 0-3,NO - target source,Not planned,Beck item U: Loss of Interest in Se
+depression_clean.csv,bdi_total,number 0-63,NO - target source,Not planned,recomputed from the 21 items (matches the supplied total)
+depression_clean.csv,bdi_level,category (ordered),NO - target source,Not planned,Normal / Mild / Borderline clinical / Moderate / Severe / Extreme; for charts and report only
+depression_clean.csv,depressed_flag,binary 0/1 TARGET,TARGET,No,1 = Beck total >= 11 (mild mood disturbance or worse)
+depression_clean.csv,bdi_total_excl_item_i,number,NO - target source,Not planned,sensitivity: total without the suicidal-ideation item
+depression_clean.csv,depressed_flag_excl_item_i,binary 0/1 (sensitivity),Sensitivity target only,No,1 = total without item I >= 11
+depression_clean.csv,depressed_flag_ge17,binary 0/1 (sensitivity),Sensitivity target only,No,1 = Beck total >= 17 (borderline clinical or worse)

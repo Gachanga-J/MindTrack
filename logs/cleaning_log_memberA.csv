@@ -1,0 +1,13 @@
+step,issue,rows_or_columns_affected,decision,who
+0 load,Loaded sociodemographic and phone-use file,1220 rows x 49 columns,Column names stripped of stray spaces,Member A
+4 structural,"Typos / stray spaces in column names (e.g. 'Usual_Phone_Locationn', 'Network _Access', 'Using_Camara_Apps', 'Using_Ttime-management_Apps')",13 column names,Renamed all 49 columns to clean snake_case,Member A
+1 duplicates,Full-row duplicates: 0. Duplicates ignoring Code: 0,0 rows,Nothing to remove in this file,Member A
+5 missing,Missing cells: 0,none,No imputation needed,Member A
+3 incorrect,Values outside the dictionary's allowed codes: none,none,No recoding needed,Member A
+3 incorrect,"avg_daily_use_band looks implausible: counts by code {1: 205, 2: 1, 3: 334, 4: 680}. Only 1 student is in '1-3 hours' while 56% are in 'more than 6 hours' (code 4).",1 column,Kept in the clean file but EXCLUDED from the main models; used only in a sensitivity check. Ask the dataset authors,Member A
+3 incorrect,"Data dictionary has typos in the 'Usage time_*' rows (the lead number runs 2,3,4...8 instead of 1). The questionnaire and the data both use 1=<1h, 2=1-2:59h, 3=3-6h, 4=>6h.",8 columns,Used the questionnaire coding (1-4) for all eight usage-time columns,Member A
+3 incorrect,"The 'apps used' questions ask which apps the student uses MOST OFTEN (tick several), not which apps they use at all. So a 0 for social media means 'not among my most used', not 'never uses'.",8 columns,Kept as 0/1 'most-used app' flags and describe them this way in the report,Member A
+6 outliers,Age range 16-60; 101 students above the box-plot fence (32); 129 are older than 30; 15 are under 18,101 rows,Kept: they are real students. Added an age_group column; ask supervisor whether under-18s need separate handling,Member A
+4 structural,"Numbers used as codes for categories (e.g. sex 1/2, program 1-19) and 1=No/2=Yes for yes/no items",Most columns,Replaced category codes with labels; yes/no items turned into 0/1; ordered 1-4 items left as numbers,Member A
+2 irrelevant,"Hand dominance, finger, touch gesture, phone location, 8 body-position and 8 position-time columns belong to the muscle-and-joint part of the original study",19 columns,Kept in sociodemo_clean.csv for completeness but NOT used as model inputs (model_use = No in the dictionary),Member A
+2 irrelevant,program has 19 categories and overlaps with department,1 column,Use department (4 groups) in the models; keep program in the clean file,Member A
