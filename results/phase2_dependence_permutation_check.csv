@@ -1,0 +1,2 @@
+check,real_labels_auc,shuffled_mean,shuffled_max
+logistic regression,0.644,0.506,0.555

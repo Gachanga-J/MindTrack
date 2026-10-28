@@ -1,0 +1,6 @@
+model,repeated_cv_auc_mean,repeated_cv_auc_sd
+Baseline (most common),0.5,0.0
+Logistic regression,0.644,0.029
+Decision tree,0.617,0.031
+Random forest,0.643,0.032
+Gradient boosting,0.628,0.032

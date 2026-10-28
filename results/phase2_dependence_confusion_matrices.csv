@@ -1,0 +1,6 @@
+model,TN,FP,FN,TP
+Baseline (most common),134,0,110,0
+Logistic regression,79,55,36,74
+Decision tree,73,61,39,71
+Random forest,65,69,25,85
+Gradient boosting,57,77,16,94

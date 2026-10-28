@@ -1,0 +1,5 @@
+model,test_auc,auc_95ci_low,auc_95ci_high
+Logistic regression,0.67,0.596,0.734
+Decision tree,0.657,0.592,0.72
+Random forest,0.701,0.636,0.768
+Gradient boosting,0.694,0.626,0.758

@@ -1,0 +1,6 @@
+model,cv5_auc_mean(train),cv5_auc_sd,threshold,train_auc,train_balanced_acc,test_accuracy,test_precision,test_recall,test_f1,test_balanced_accuracy,test_auc,test_pr_auc,auc_gap_train_minus_test,best_params
+Baseline (most common),0.5,0.0,0.5,0.5,0.5,0.549,0.0,0.0,0.0,0.5,0.5,0.451,0.0,{}
+Logistic regression,0.65,0.033,0.471,0.689,0.641,0.627,0.574,0.673,0.619,0.631,0.67,0.634,0.02,"{""m__C"": 0.1}"
+Decision tree,0.615,0.024,0.558,0.671,0.627,0.59,0.538,0.645,0.587,0.595,0.657,0.595,0.014,"{""m__max_depth"": 5, ""m__min_samples_leaf"": 40}"
+Random forest,0.656,0.028,0.484,0.804,0.708,0.615,0.552,0.773,0.644,0.629,0.701,0.649,0.102,"{""m__max_depth"": 5, ""m__min_samples_leaf"": 10}"
+Gradient boosting,0.641,0.024,0.434,0.67,0.615,0.619,0.55,0.855,0.669,0.64,0.694,0.637,-0.023,"{""m__learning_rate"": 0.03, ""m__max_depth"": 1, ""m__n_estimators"": 150}"
