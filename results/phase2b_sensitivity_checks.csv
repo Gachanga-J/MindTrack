@@ -1,0 +1,33 @@
+check,feature_set,model,auc_mean,auc_sd,pr_auc_mean,precision_at_70pct_recall,brier,prevalence,n_flagged,n
+"MAIN: Beck 11+ (all 1,220)",F1,Baseline (most common),0.5,0.0,0.179,0.179,,0.179,218,1220
+"MAIN: Beck 11+ (all 1,220)",F1,Logistic regression,0.607,0.04,0.264,0.233,0.236,0.179,218,1220
+"MAIN: Beck 11+ (all 1,220)",F1,Random forest,0.636,0.048,0.271,0.246,0.215,0.179,218,1220
+"MAIN: Beck 11+ (all 1,220)",F1,Gradient boosting,0.643,0.055,0.307,0.247,0.141,0.179,218,1220
+"MAIN: Beck 11+ (all 1,220)",F2,Baseline (most common),0.5,0.0,0.179,0.179,,0.179,218,1220
+"MAIN: Beck 11+ (all 1,220)",F2,Logistic regression,0.591,0.043,0.253,0.222,0.238,0.179,218,1220
+"MAIN: Beck 11+ (all 1,220)",F2,Random forest,0.634,0.043,0.284,0.239,0.207,0.179,218,1220
+"MAIN: Beck 11+ (all 1,220)",F2,Gradient boosting,0.635,0.05,0.292,0.237,0.142,0.179,218,1220
+S1: Beck 17+,F1,Baseline (most common),0.5,0.0,0.087,0.087,,0.087,106,1220
+S1: Beck 17+,F1,Logistic regression,0.536,0.08,0.116,0.108,0.235,0.087,106,1220
+S1: Beck 17+,F1,Random forest,0.587,0.05,0.122,0.115,0.19,0.087,106,1220
+S1: Beck 17+,F1,Gradient boosting,0.561,0.051,0.115,0.112,0.081,0.087,106,1220
+S1: Beck 17+,F2,Baseline (most common),0.5,0.0,0.087,0.087,,0.087,106,1220
+S1: Beck 17+,F2,Logistic regression,0.544,0.067,0.127,0.106,0.226,0.087,106,1220
+S1: Beck 17+,F2,Random forest,0.586,0.053,0.129,0.116,0.173,0.087,106,1220
+S1: Beck 17+,F2,Gradient boosting,0.568,0.06,0.129,0.111,0.081,0.087,106,1220
+S2: item I removed from total,F1,Baseline (most common),0.5,0.0,0.17,0.17,,0.17,208,1220
+S2: item I removed from total,F1,Logistic regression,0.601,0.038,0.249,0.221,0.236,0.17,208,1220
+S2: item I removed from total,F1,Random forest,0.631,0.033,0.259,0.229,0.214,0.17,208,1220
+S2: item I removed from total,F1,Gradient boosting,0.63,0.036,0.282,0.221,0.137,0.17,208,1220
+S2: item I removed from total,F2,Baseline (most common),0.5,0.0,0.17,0.17,,0.17,208,1220
+S2: item I removed from total,F2,Logistic regression,0.597,0.037,0.249,0.216,0.236,0.17,208,1220
+S2: item I removed from total,F2,Random forest,0.641,0.033,0.285,0.231,0.205,0.17,208,1220
+S2: item I removed from total,F2,Gradient boosting,0.631,0.033,0.275,0.223,0.137,0.17,208,1220
+S3: under-18s removed,F1,Baseline (most common),0.5,0.0,0.178,0.178,,0.178,215,1205
+S3: under-18s removed,F1,Logistic regression,0.605,0.028,0.261,0.232,0.237,0.178,215,1205
+S3: under-18s removed,F1,Random forest,0.63,0.031,0.265,0.239,0.216,0.178,215,1205
+S3: under-18s removed,F1,Gradient boosting,0.638,0.033,0.298,0.24,0.142,0.178,215,1205
+S3: under-18s removed,F2,Baseline (most common),0.5,0.0,0.178,0.178,,0.178,215,1205
+S3: under-18s removed,F2,Logistic regression,0.598,0.03,0.256,0.222,0.237,0.178,215,1205
+S3: under-18s removed,F2,Random forest,0.644,0.029,0.284,0.242,0.207,0.178,215,1205
+S3: under-18s removed,F2,Gradient boosting,0.642,0.032,0.29,0.24,0.141,0.178,215,1205

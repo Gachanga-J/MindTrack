@@ -1,0 +1,9 @@
+feature_set,model,test_auc,auc_95ci_low,auc_95ci_high
+F1 phone & background,Logistic regression,0.597,0.504,0.684
+F1 phone & background,Decision tree,0.516,0.41,0.614
+F1 phone & background,Random forest,0.632,0.551,0.719
+F1 phone & background,Gradient boosting,0.605,0.518,0.697
+F2 + dependence questions,Logistic regression,0.604,0.512,0.691
+F2 + dependence questions,Decision tree,0.488,0.396,0.571
+F2 + dependence questions,Random forest,0.65,0.569,0.74
+F2 + dependence questions,Gradient boosting,0.546,0.457,0.636

@@ -1,0 +1,2 @@
+check,real_labels_auc,shuffled_mean,shuffled_max
+F2 logistic regression,0.603,0.499,0.548

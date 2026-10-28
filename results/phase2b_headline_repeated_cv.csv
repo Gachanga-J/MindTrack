@@ -1,0 +1,24 @@
+feature_set,model,auc_mean,auc_sd,pr_auc_mean,precision_at_70pct_recall,brier,prevalence,n_flagged,n
+F1 phone & background,Baseline (most common),0.5,0.0,0.179,0.179,,0.179,218,1220
+F1 phone & background,Logistic regression,0.607,0.04,0.264,0.233,0.236,0.179,218,1220
+F1 phone & background,Random forest,0.636,0.048,0.271,0.246,0.215,0.179,218,1220
+F1 phone & background,Gradient boosting,0.643,0.055,0.307,0.247,0.141,0.179,218,1220
+F1 phone & background,Decision tree,0.593,0.051,0.229,0.217,0.245,0.179,218,1220
+F1 phone & background,Elastic-net logistic,0.607,0.041,0.267,0.233,0.236,0.179,218,1220
+F1 phone & background,"Random forest, top-15 inputs",0.635,0.046,0.268,0.246,0.216,0.179,218,1220
+F1 phone & background,Ensemble (LR+RF+GB),0.639,0.049,0.283,0.252,0.177,0.179,218,1220
+F1 phone & background,"Ensemble, calibrated",0.478,0.096,0.194,0.199,0.147,0.179,218,1220
+F2 + 22 dependence questions,Baseline (most common),0.5,0.0,0.179,0.179,,0.179,218,1220
+F2 + 22 dependence questions,Logistic regression,0.591,0.043,0.253,0.222,0.238,0.179,218,1220
+F2 + 22 dependence questions,Random forest,0.634,0.043,0.284,0.239,0.207,0.179,218,1220
+F2 + 22 dependence questions,Gradient boosting,0.635,0.05,0.292,0.237,0.142,0.179,218,1220
+F2 + 22 dependence questions,Decision tree,0.569,0.04,0.211,0.202,0.249,0.179,218,1220
+F2 + 22 dependence questions,Elastic-net logistic,0.592,0.041,0.25,0.221,0.236,0.179,218,1220
+F2 + 22 dependence questions,"Random forest, top-15 inputs",0.611,0.042,0.26,0.229,0.215,0.179,218,1220
+F2 + 22 dependence questions,Ensemble (LR+RF+GB),0.623,0.045,0.281,0.232,0.175,0.179,218,1220
+F2 + 22 dependence questions,"Ensemble, calibrated",0.605,0.066,0.26,0.229,0.145,0.179,218,1220
+F3 + dependence total (1 column),Logistic regression,0.613,0.039,0.262,0.234,0.235,0.179,218,1220
+F3 + dependence total (1 column),Random forest,0.646,0.043,0.274,0.254,0.211,0.179,218,1220
+F3 + dependence total (1 column),Elastic-net logistic,0.612,0.036,0.264,0.23,0.235,0.179,218,1220
+F4 + 3 PCA components of the 22 questions,Logistic regression,0.609,0.039,0.26,0.23,0.236,0.179,218,1220
+F4 + 3 PCA components of the 22 questions,Random forest,0.646,0.038,0.277,0.252,0.207,0.179,218,1220
