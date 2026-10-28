@@ -1,0 +1,11 @@
+feature_set,model,repeated_cv_auc_mean,repeated_cv_auc_sd
+F1 phone & background,Baseline (most common),0.5,0.0
+F1 phone & background,Logistic regression,0.603,0.049
+F1 phone & background,Decision tree,0.596,0.041
+F1 phone & background,Random forest,0.634,0.038
+F1 phone & background,Gradient boosting,0.615,0.04
+F2 + dependence questions,Baseline (most common),0.5,0.0
+F2 + dependence questions,Logistic regression,0.603,0.04
+F2 + dependence questions,Decision tree,0.613,0.044
+F2 + dependence questions,Random forest,0.652,0.04
+F2 + dependence questions,Gradient boosting,0.633,0.042

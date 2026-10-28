@@ -1,0 +1,7 @@
+feature_set,model,spearman_mean,spearman_sd,auc_for_flag_11plus,auc_sd,pr_auc_for_flag
+F1 phone & background,Ridge,0.323,0.068,0.59,0.039,0.248
+F1 phone & background,Random forest regressor,0.38,0.06,0.631,0.049,0.282
+F1 phone & background,Gradient boosting regressor,0.382,0.057,0.637,0.045,0.298
+F2 + 22 dependence questions,Ridge,0.34,0.059,0.595,0.039,0.254
+F2 + 22 dependence questions,Random forest regressor,0.381,0.056,0.616,0.043,0.274
+F2 + 22 dependence questions,Gradient boosting regressor,0.383,0.053,0.63,0.045,0.284
