@@ -1,0 +1,32 @@
+input,Depression flag,Dependence flag,strongest_abs
+age,-0.12,-0.124,0.124
+type_md_Laptop,-0.068,-0.112,0.112
+areas_use_University,0.099,0.005,0.099
+department_Engineering,0.099,0.034,0.099
+app_social_media,-0.04,-0.088,0.088
+living_arrangement_Mother/Father only,0.02,0.081,0.081
+ses,0.014,0.08,0.08
+residence_area_Urban,-0.033,-0.078,0.078
+app_messaging,-0.06,-0.073,0.073
+department_Law,-0.059,0.07,0.07
+areas_use_Home,-0.07,-0.022,0.07
+living_arrangement_Both parents,-0.065,-0.065,0.065
+subscription_plan_Prepaid,0.011,-0.058,0.058
+app_video,0.056,0.025,0.056
+app_games,0.054,0.005,0.054
+app_music,0.051,0.027,0.051
+living_arrangement_Roommate,0.032,0.051,0.051
+department_Health,0.009,0.049,0.049
+living_arrangement_Relatives,0.044,-0.003,0.044
+app_mail,-0.006,0.041,0.041
+network_access_Cellular data,0.025,-0.039,0.039
+sex_Male,0.013,-0.036,0.036
+semester,-0.028,0.035,0.035
+type_md_Smartphone,0.033,0.03,0.033
+app_time_management,0.031,-0.003,0.031
+type_md_Tablet,0.025,-0.03,0.03
+network_access_Wi-Fi,-0.029,0.027,0.029
+time_first_cellphone,-0.021,0.026,0.026
+areas_use_Shopping centres,-0.026,0.024,0.026
+app_camera,0.02,-0.007,0.02
+living_arrangement_Partner,-0.005,-0.001,0.005

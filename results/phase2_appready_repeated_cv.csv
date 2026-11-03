@@ -1,0 +1,21 @@
+target,inputs,model,repeated_cv_auc_mean,repeated_cv_auc_sd
+Depression flag,All app inputs,Baseline (most common),0.5,0.0
+Depression flag,All app inputs,Logistic regression,0.593,0.043
+Depression flag,All app inputs,Decision tree,0.611,0.042
+Depression flag,All app inputs,Random forest,0.618,0.041
+Depression flag,All app inputs,Gradient boosting,0.61,0.041
+Depression flag,Selected (correlation + importance),Baseline (most common),0.5,0.0
+Depression flag,Selected (correlation + importance),Logistic regression,0.59,0.044
+Depression flag,Selected (correlation + importance),Decision tree,0.61,0.042
+Depression flag,Selected (correlation + importance),Random forest,0.613,0.04
+Depression flag,Selected (correlation + importance),Gradient boosting,0.611,0.044
+Dependence flag,All app inputs,Baseline (most common),0.5,0.0
+Dependence flag,All app inputs,Logistic regression,0.602,0.024
+Dependence flag,All app inputs,Decision tree,0.55,0.028
+Dependence flag,All app inputs,Random forest,0.598,0.03
+Dependence flag,All app inputs,Gradient boosting,0.59,0.032
+Dependence flag,Selected (correlation + importance),Baseline (most common),0.5,0.0
+Dependence flag,Selected (correlation + importance),Logistic regression,0.595,0.027
+Dependence flag,Selected (correlation + importance),Decision tree,0.548,0.028
+Dependence flag,Selected (correlation + importance),Random forest,0.584,0.028
+Dependence flag,Selected (correlation + importance),Gradient boosting,0.577,0.026

@@ -1,0 +1,17 @@
+target,inputs,model,test_auc,auc_95ci_low,auc_95ci_high
+Depression flag,All app inputs,Logistic regression,0.619,0.528,0.708
+Depression flag,All app inputs,Decision tree,0.58,0.491,0.664
+Depression flag,All app inputs,Random forest,0.661,0.579,0.747
+Depression flag,All app inputs,Gradient boosting,0.599,0.514,0.69
+Depression flag,Selected (correlation + importance),Logistic regression,0.632,0.541,0.725
+Depression flag,Selected (correlation + importance),Decision tree,0.572,0.481,0.657
+Depression flag,Selected (correlation + importance),Random forest,0.645,0.557,0.733
+Depression flag,Selected (correlation + importance),Gradient boosting,0.622,0.529,0.713
+Dependence flag,All app inputs,Logistic regression,0.611,0.536,0.684
+Dependence flag,All app inputs,Decision tree,0.624,0.562,0.689
+Dependence flag,All app inputs,Random forest,0.631,0.559,0.694
+Dependence flag,All app inputs,Gradient boosting,0.628,0.561,0.697
+Dependence flag,Selected (correlation + importance),Logistic regression,0.588,0.516,0.657
+Dependence flag,Selected (correlation + importance),Decision tree,0.603,0.535,0.666
+Dependence flag,Selected (correlation + importance),Random forest,0.616,0.541,0.684
+Dependence flag,Selected (correlation + importance),Gradient boosting,0.624,0.552,0.693

@@ -1,0 +1,56 @@
+target,model,rank,input,forest_importance,kept
+Depression flag,Decision tree,1,age,0.2014,True
+Depression flag,Decision tree,2,semester,0.0948,True
+Depression flag,Decision tree,3,time_first_cellphone,0.0787,True
+Depression flag,Decision tree,4,ses,0.0669,True
+Depression flag,Decision tree,5,areas_use_University,0.055,True
+Depression flag,Decision tree,6,department_Engineering,0.0471,True
+Depression flag,Decision tree,7,type_md_Laptop,0.0419,True
+Depression flag,Decision tree,8,network_access_Wi-Fi,0.0351,True
+Depression flag,Decision tree,9,living_arrangement_Both parents,0.0325,True
+Depression flag,Decision tree,10,app_games,0.03,True
+Depression flag,Decision tree,11,app_messaging,0.0289,True
+Depression flag,Decision tree,12,living_arrangement_Mother/Father only,0.0282,True
+Depression flag,Decision tree,13,type_md_Smartphone,0.0281,False
+Depression flag,Decision tree,14,app_video,0.0273,False
+Depression flag,Decision tree,15,living_arrangement_Relatives,0.0264,False
+Depression flag,Decision tree,16,department_Law,0.0237,False
+Depression flag,Decision tree,17,sex_Male,0.0233,False
+Depression flag,Decision tree,18,app_social_media,0.0205,False
+Depression flag,Decision tree,19,app_music,0.0182,False
+Depression flag,Decision tree,20,subscription_plan_Prepaid,0.0178,False
+Depression flag,Decision tree,21,app_time_management,0.0165,False
+Depression flag,Decision tree,22,residence_area_Urban,0.0157,False
+Depression flag,Decision tree,23,app_mail,0.013,False
+Depression flag,Decision tree,24,app_camera,0.0127,False
+Depression flag,Decision tree,25,type_md_Tablet,0.0121,False
+Depression flag,Decision tree,26,living_arrangement_Partner,0.0032,False
+Depression flag,Decision tree,27,living_arrangement_Roommate,0.001,False
+Depression flag,Decision tree,28,areas_use_Shopping centres,0.0,False
+Dependence flag,Logistic regression,1,age,0.1849,True
+Dependence flag,Logistic regression,2,ses,0.0966,True
+Dependence flag,Logistic regression,3,semester,0.0913,True
+Dependence flag,Logistic regression,4,type_md_Laptop,0.0796,True
+Dependence flag,Logistic regression,5,app_social_media,0.0548,True
+Dependence flag,Logistic regression,6,living_arrangement_Mother/Father only,0.0434,True
+Dependence flag,Logistic regression,7,department_Law,0.0366,True
+Dependence flag,Logistic regression,8,app_messaging,0.0361,True
+Dependence flag,Logistic regression,9,department_Health,0.0349,True
+Dependence flag,Logistic regression,10,network_access_Cellular data,0.0332,True
+Dependence flag,Logistic regression,11,app_games,0.0332,True
+Dependence flag,Logistic regression,12,subscription_plan_Prepaid,0.0318,True
+Dependence flag,Logistic regression,13,living_arrangement_Both parents,0.0317,True
+Dependence flag,Logistic regression,14,residence_area_Urban,0.0307,True
+Dependence flag,Logistic regression,15,areas_use_Home,0.0244,True
+Dependence flag,Logistic regression,16,sex_Male,0.023,True
+Dependence flag,Logistic regression,17,type_md_Tablet,0.0218,True
+Dependence flag,Logistic regression,18,department_Engineering,0.0209,True
+Dependence flag,Logistic regression,19,app_time_management,0.0195,False
+Dependence flag,Logistic regression,20,app_camera,0.0159,False
+Dependence flag,Logistic regression,21,app_music,0.0145,False
+Dependence flag,Logistic regression,22,app_video,0.0135,False
+Dependence flag,Logistic regression,23,living_arrangement_Relatives,0.0121,False
+Dependence flag,Logistic regression,24,app_mail,0.0098,False
+Dependence flag,Logistic regression,25,living_arrangement_Roommate,0.0046,False
+Dependence flag,Logistic regression,26,living_arrangement_Partner,0.0014,False
+Dependence flag,Logistic regression,27,areas_use_Shopping centres,0.0,False

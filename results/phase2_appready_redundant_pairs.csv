@@ -1,0 +1,5 @@
+input_1,input_2,correlation
+network_access_Cellular data,network_access_Wi-Fi,-0.986
+areas_use_Home,areas_use_University,-0.888
+department_Health,type_md_Smartphone,0.831
+time_first_cellphone,department_Health,0.817
