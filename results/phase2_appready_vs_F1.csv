@@ -1,0 +1,9 @@
+target,model,All app inputs,Selected (correlation + importance),A/B larger input list (F1),cost_of_app_only_inputs
+Dependence flag,Decision tree,0.55,0.548,0.617,-0.067
+Dependence flag,Gradient boosting,0.59,0.577,0.628,-0.038
+Dependence flag,Logistic regression,0.602,0.595,0.644,-0.042
+Dependence flag,Random forest,0.598,0.584,0.643,-0.045
+Depression flag,Decision tree,0.611,0.61,0.596,0.015
+Depression flag,Gradient boosting,0.61,0.611,0.615,-0.005
+Depression flag,Logistic regression,0.593,0.59,0.603,-0.01
+Depression flag,Random forest,0.618,0.613,0.634,-0.016

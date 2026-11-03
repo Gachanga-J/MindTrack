@@ -1,0 +1,5 @@
+target,inputs,model,real_labels_auc,shuffled_mean,shuffled_max
+Depression flag,All app inputs,Logistic regression,0.593,0.495,0.562
+Depression flag,Selected (correlation + importance),Logistic regression,0.59,0.492,0.553
+Dependence flag,All app inputs,Logistic regression,0.602,0.501,0.544
+Dependence flag,Selected (correlation + importance),Logistic regression,0.595,0.499,0.546

@@ -1,0 +1,21 @@
+target,inputs,model,n_inputs_used,cv5_auc_mean(train),cv5_auc_sd,threshold,train_auc,train_balanced_acc,test_accuracy,test_precision,test_recall,test_f1,test_balanced_accuracy,test_auc,test_pr_auc,auc_gap_train_minus_test,best_params
+Depression flag,All app inputs,Baseline (most common),31,0.5,0.0,0.5,0.5,0.5,0.824,0.0,0.0,0.0,0.5,0.5,0.176,0.0,{}
+Depression flag,All app inputs,Logistic regression,31,0.59,0.03,0.478,0.648,0.596,0.422,0.208,0.814,0.332,0.576,0.619,0.245,0.029,"{""m__C"": 0.003}"
+Depression flag,All app inputs,Decision tree,31,0.599,0.05,0.449,0.678,0.637,0.504,0.209,0.651,0.316,0.562,0.58,0.206,0.097,"{""m__max_depth"": 3, ""m__min_samples_leaf"": 40}"
+Depression flag,All app inputs,Random forest,31,0.611,0.027,0.423,0.806,0.678,0.492,0.221,0.744,0.34,0.591,0.661,0.257,0.145,"{""m__max_depth"": null, ""m__min_samples_leaf"": 20}"
+Depression flag,All app inputs,Gradient boosting,31,0.604,0.029,0.14,0.775,0.659,0.434,0.212,0.814,0.337,0.584,0.599,0.218,0.175,"{""m__learning_rate"": 0.03, ""m__max_depth"": 3, ""m__n_estimators"": 50}"
+Depression flag,Selected (correlation + importance),Baseline (most common),28,0.5,0.0,0.5,0.5,0.5,0.824,0.0,0.0,0.0,0.5,0.5,0.176,0.0,{}
+Depression flag,Selected (correlation + importance),Logistic regression,18,0.59,0.037,0.483,0.644,0.604,0.439,0.21,0.791,0.332,0.577,0.632,0.25,0.012,"{""m__C"": 0.003, ""sel__top_k"": 18}"
+Depression flag,Selected (correlation + importance),Decision tree,12,0.599,0.054,0.474,0.676,0.637,0.504,0.209,0.651,0.316,0.562,0.572,0.204,0.104,"{""m__max_depth"": 3, ""m__min_samples_leaf"": 40, ""sel__top_k"": 12}"
+Depression flag,Selected (correlation + importance),Random forest,18,0.614,0.026,0.394,0.958,0.869,0.611,0.245,0.581,0.345,0.599,0.645,0.251,0.313,"{""m__max_depth"": null, ""m__min_samples_leaf"": 5, ""sel__top_k"": 18}"
+Depression flag,Selected (correlation + importance),Gradient boosting,12,0.611,0.041,0.153,0.755,0.667,0.504,0.217,0.698,0.331,0.58,0.622,0.244,0.133,"{""m__learning_rate"": 0.03, ""m__max_depth"": 3, ""m__n_estimators"": 50, ""sel__top_k"": 12}"
+Dependence flag,All app inputs,Baseline (most common),31,0.5,0.0,0.5,0.5,0.5,0.549,0.0,0.0,0.0,0.5,0.5,0.451,0.0,{}
+Dependence flag,All app inputs,Logistic regression,31,0.606,0.027,0.434,0.659,0.601,0.549,0.5,0.727,0.593,0.565,0.611,0.552,0.048,"{""m__C"": 1}"
+Dependence flag,All app inputs,Decision tree,31,0.575,0.038,0.453,0.676,0.622,0.553,0.503,0.782,0.612,0.574,0.624,0.536,0.052,"{""m__max_depth"": 5, ""m__min_samples_leaf"": 10}"
+Dependence flag,All app inputs,Random forest,31,0.614,0.014,0.486,0.82,0.742,0.586,0.534,0.636,0.581,0.591,0.631,0.557,0.189,"{""m__max_depth"": null, ""m__min_samples_leaf"": 10}"
+Dependence flag,All app inputs,Gradient boosting,31,0.592,0.012,0.381,0.768,0.678,0.557,0.506,0.755,0.606,0.575,0.628,0.534,0.14,"{""m__learning_rate"": 0.1, ""m__max_depth"": 2, ""m__n_estimators"": 150}"
+Dependence flag,Selected (correlation + importance),Baseline (most common),27,0.5,0.0,0.5,0.5,0.5,0.549,0.0,0.0,0.0,0.5,0.5,0.451,0.0,{}
+Dependence flag,Selected (correlation + importance),Logistic regression,18,0.598,0.036,0.39,0.636,0.587,0.553,0.503,0.882,0.64,0.583,0.588,0.537,0.048,"{""m__C"": 0.3, ""sel__top_k"": 18}"
+Dependence flag,Selected (correlation + importance),Decision tree,8,0.57,0.018,0.414,0.653,0.601,0.508,0.473,0.8,0.595,0.534,0.603,0.532,0.051,"{""m__max_depth"": 5, ""m__min_samples_leaf"": 20, ""sel__top_k"": 8}"
+Dependence flag,Selected (correlation + importance),Random forest,18,0.594,0.026,0.482,0.673,0.619,0.566,0.511,0.809,0.627,0.587,0.616,0.549,0.057,"{""m__max_depth"": 3, ""m__min_samples_leaf"": 20, ""sel__top_k"": 18}"
+Dependence flag,Selected (correlation + importance),Gradient boosting,18,0.59,0.028,0.429,0.686,0.624,0.594,0.535,0.773,0.632,0.61,0.624,0.563,0.063,"{""m__learning_rate"": 0.03, ""m__max_depth"": 2, ""m__n_estimators"": 150, ""sel__top_k"": 18}"

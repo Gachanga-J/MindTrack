@@ -1,0 +1,21 @@
+target,inputs,model,TN,FP,FN,TP
+Depression flag,All app inputs,Baseline (most common),201,0,43,0
+Depression flag,All app inputs,Logistic regression,68,133,8,35
+Depression flag,All app inputs,Decision tree,95,106,15,28
+Depression flag,All app inputs,Random forest,88,113,11,32
+Depression flag,All app inputs,Gradient boosting,71,130,8,35
+Depression flag,Selected (correlation + importance),Baseline (most common),201,0,43,0
+Depression flag,Selected (correlation + importance),Logistic regression,73,128,9,34
+Depression flag,Selected (correlation + importance),Decision tree,95,106,15,28
+Depression flag,Selected (correlation + importance),Random forest,124,77,18,25
+Depression flag,Selected (correlation + importance),Gradient boosting,93,108,13,30
+Dependence flag,All app inputs,Baseline (most common),134,0,110,0
+Dependence flag,All app inputs,Logistic regression,54,80,30,80
+Dependence flag,All app inputs,Decision tree,49,85,24,86
+Dependence flag,All app inputs,Random forest,73,61,40,70
+Dependence flag,All app inputs,Gradient boosting,53,81,27,83
+Dependence flag,Selected (correlation + importance),Baseline (most common),134,0,110,0
+Dependence flag,Selected (correlation + importance),Logistic regression,38,96,13,97
+Dependence flag,Selected (correlation + importance),Decision tree,36,98,22,88
+Dependence flag,Selected (correlation + importance),Random forest,49,85,21,89
+Dependence flag,Selected (correlation + importance),Gradient boosting,60,74,25,85
